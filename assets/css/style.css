@@ -372,3 +372,75 @@ background-color: #1cb698;
     0%{width: 0%;}
     100%{width: 80%;}
 }
+
+
+
+
+.curriculum{
+    background-color: #000000;
+    color: #fff;
+    padding: 50px 20px;
+}
+.curriculum .contenido-seccion{
+    max-width: 1100px;
+    margin: auto;
+}
+.curriculum h2{
+    font-size: 48px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.curriculum .fila{
+    display: flex;
+}
+
+.curriculum .fila .col{
+    width: 49%;
+    padding: 0 20px;
+
+}
+
+.curriculum .fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px ;
+}
+.curriculum .fila .izquierda{
+    border-right: 2px solid #fff;
+}
+.curriculum .fila .derecha{
+    border-left: 2px solid #fff;
+}
+.curriculum .fila .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color:#252a2e;
+}
+.curriculum .fila .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item .casa{
+    color:#bebebe;
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+.curriculum .fila .item .fecha{
+    display: block;
+    color: #e6e6e6;
+    margin-bottom: 10px;
+}
+.curriculum .fila .item p{
+    line-height: 24px;
+}
+.curriculum .fila .izq{
+    border-right: 2px solid #cccbcb;
+    margin-right: 20px;
+}
+.curriculum .fila .der{
+    border-left: 2px solid #cccbcb;
+    margin-left: 20px;
+}
+
