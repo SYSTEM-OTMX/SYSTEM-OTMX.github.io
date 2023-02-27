@@ -17,29 +17,29 @@
         <div class="logo">
           <a href="#">Eduardo</a>
         </div>
-        <nav id="nav">
+        <nav id="nav" >
           <ul>
             <li>
-              <a href="#inicio">Inicio</a>
+              <a href="#inicio" onclick="seleccionar()">Inicio</a>
             </li>
             <li>
-              <a href="#sobremi">Sobre Mi</a>
+              <a href="#sobremi" onclick="seleccionar()">Sobre Mi</a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" onclick="seleccionar()">Skills</a>
             </li>
             <li>
-              <a href="#curriculum">Curriculum</a>
+              <a href="#curriculum" onclick="seleccionar()">Curriculum</a>
             </li>
             <li>
-              <a href="#portfolio">Portfolio</a>
+              <a href="#portfolio" onclick="seleccionar()">Portfolio</a>
             </li>
             <li>
-              <a href="#contacto">Contacto</a>
+              <a href="#contacto" onclick="seleccionar()">Contacto</a>
             </li>
           </ul>
         </nav>
-        <div class="nav-responsive">
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
@@ -63,10 +63,13 @@
       <div class="contenido-seccion">
         <h2>Sobre Mi</h2>
         <p>
-          <span>Hola, Soy Eduardo Santos</span> Lorem ipsum dolor, sit amet
-          consectetur adipisicing elit. Saepe praesentium expedita nisi labore
-          non aliquid cum hic ut dignissimos quaerat, officiis voluptas ipsum
-          sunt corporis exercitationem soluta quasi molestiae voluptatum.
+          <span>Hola, Soy Eduardo Santos</span> persona honesta y responsable con experiencia
+            en el desarrollo de software con
+          le nguajes de programación de alto nivel además de maquetado de
+          paginas web con servicios back-end para base de datos entre
+          otros, estoy en busca de oportunidades de crecimiento profesional
+          y laboral.
+          
         </p>
 
         <div class="fila">
@@ -255,7 +258,9 @@
                         <h4>Ingenieria Informatica</h4>
                         <span class="casa">Tecnologico de Estudios Superiores de Ecatepec</span>
                         <span class="fecha">2018-2022</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non debitis ipsam voluptate consectetur possimus provident eligendi illo. Repellendus distinctio cum non quis numquam fugiat sit corrupti quas, tempora tenetur laboriosam.</p>
+                        <p>Graduado con distinciones con un promedio de 9.13 y nivel de ingles B1 por parte del centro de idiomas 
+                            de la misma institucion
+                        </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -264,7 +269,7 @@
                         <h4>Tecnico en Programacion</h4>
                         <span class="casa">Centro de Estudios Tecnológicos, Industriales y de Servicios</span>
                         <span class="fecha">2015-2018</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non debitis ipsam voluptate consectetur possimus provident eligendi illo. Repellendus distinctio cum non quis numquam fugiat sit corrupti quas, tempora tenetur laboriosam.</p>
+                        <p>Graduado con distinciones con un promedio de 8.5 .</p>
                         <div class="conectori">
                             <div class="circuloi"></div>
                         </div>
@@ -276,7 +281,10 @@
                         <h4>Backend Developer</h4>
                         <span class="casa">Fuerza Aerea Mexicana</span>
                         <span class="fecha">2018-2022</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non debitis ipsam voluptate consectetur possimus provident eligendi illo. Repellendus distinctio cum non quis numquam fugiat sit corrupti quas, tempora tenetur laboriosam.</p>
+                        <p>Proyecto en conjunto con la FAM en el desarrollo de sistema de localizacion
+                            y fui encargado de desarrollar el back-end para el procesamiento de GGA Y RMC 
+                            y convertirlos en PEDAT todo esto para la localizacion de aeronaves.
+                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -285,7 +293,7 @@
                         <h4>Tecnico en Programacion</h4>
                         <span class="casa">Centro de Estudios Tecnológicos, Industriales y de Servicios</span>
                         <span class="fecha">2021-2022</span>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non debitis ipsam voluptate consectetur possimus provident eligendi illo. Repellendus distinctio cum non quis numquam fugiat sit corrupti quas, tempora tenetur laboriosam.</p>
+                        <p>G.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -296,7 +304,7 @@
     </section>
 
      <!-- SECCION PORTFOLIO -->
-     <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio">
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
@@ -304,26 +312,78 @@
                     <img src="assets/img/p1.PNG" alt="">
                     <div class="overlay">
                         <h3>Herramientas de localziacion </h3>
-                        <p>Paina de herramientas localizacion</p>
+                        <p> <a href="https://system-otmx.up.railway.app/LOCALIZACION" target="_blank" style="color: #fff; font-style: italic;">Paina de herramientas localizacion</a> </p>
                     </div>
                 </div>
                 <div class="proyecto">
                     <img src="assets/img/p2.PNG" alt="">
                     <div class="overlay">
                         <h3>Localizacion</h3>
-                        <p>Localizar ISS</p>
+                        <p><a href="https://system-otmx.up.railway.app/ISS" target="_blank" style="color: #fff; font-style: italic;"> 
+                            Localizar ISS</a></p>
                     </div>
                 </div>
                 <div class="proyecto">
                     <img src="assets/img/p3.PNG" alt="">
-                    <div class="overlay">
+                    <div class="overlay"> 
                         <h3>Localizacion</h3>
-                        <p>Localizar IP y informacion </p>
+                        <p> <a href="https://system-otmx.up.railway.app/IP" target="_blank" style="color: #fff; font-style: italic;">Localizar IP y informacion </a> </p>
                     </div>
                 </div>
                 
             </div>
         </div>
     </section>
+
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formsubmit.co/system.otmx@gmail.com"  method="post" class="fila">
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre" name="name">
+                    <input type="text" placeholder="Numero Telefonico" name="phone">
+                    <input type="text" placeholder="Direccion de Correo" name="email">
+                    <input type="text" placeholder="Tema" name="topic">
+                    <textarea id="" cols="30" rows="10" placeholder="Mensaje" name="message" ></textarea>
+                    <button type="submit">
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-circle-chevron-up"></i>
+        </a>
+        <div class="redes">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+        let menuVisible = false;
+
+        function mostrarOcultarMenu(){
+            if(menuVisible){
+                document.getElementById("nav").classList="";
+                menuVisible = false;
+            }else{
+                document.getElementById("nav").classList="responsive";
+                menuVisible =true;
+            }
+        }
+
+        function seleccionar(){
+            document.getElementById("nav").classList = "";
+            menuVisible = false;
+        }
+    </script>
   </body>
 </html>
