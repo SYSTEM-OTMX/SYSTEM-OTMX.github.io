@@ -288,6 +288,15 @@ background-color: #1cb698;
     100%{width: 30%;}
 }
 
+.skills .skill .kotlin{
+    width: 0%;
+    animation: 2s kotlin forwards;
+}
+@keyframes kotlin {
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+
 .skills .skill .html{
     width: 0%;
     animation: 2s html forwards;
@@ -533,7 +542,7 @@ background-color: #1cb698;
     border: none;
     margin-bottom: 20px;
     background-color: #252a2e;
-    color: #fff;
+    color: #ffffff;
     font-size: 18px;
 }
 
