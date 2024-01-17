@@ -33,7 +33,7 @@ html{
 }
 .contenedor-header header .logo a{
     font-size: 36px;
-    color: #adadad;
+    color: #ffffff;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -42,7 +42,7 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color:#adadad;
+    color:#ffffff;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
@@ -50,10 +50,10 @@ html{
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #ffffff;
+    color: #037ee3;
 }
 .nav-responsive{
-    background-color: #b4b4b4;
+    background-color: #ffffff;
     color: #000000;
     padding: 5px 10px;
     border-radius: 5px;
@@ -62,7 +62,7 @@ html{
 }
 
 .inicio{
-    background:linear-gradient(to top, rgba(30,35,38,8),rgba(30,35,38,1));
+    background-image: url('../img/background-portfolio.jpg');
     background-size: cover;
     height: 100vh;
     color: #fff;
@@ -71,7 +71,7 @@ html{
 }
 .inicio .contenido-banner{
     padding: 20px;
-    background-color: #1e2326;
+    backdrop-filter: blur(100px);
     max-width: 350px;
     margin: auto;
     text-align: center;
@@ -79,7 +79,7 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #a7a4a4;
+    border: 10px solid #000;
     display: block;
     width: 80%;
     margin: auto;
@@ -109,7 +109,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #949393;
+    background-color: #0a0a0a;
 }
 .sobremi{
     background-color: #000000;
@@ -132,7 +132,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1cb698;
+    color: #ffffff;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -157,11 +157,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1cb698;
+    color: #ffffff;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1cb698;
+    background-color: #ffffff;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -183,7 +183,7 @@ html{
     transition: .3s;
 }
 .sobremi .fila .col .contenedor-intereses .intereses:hover{
-background-color: #1cb698;
+background-color: #000000;
 }
 
 .sobremi .fila .col .contenedor-intereses .intereses I{
@@ -211,7 +211,7 @@ background-color: #1cb698;
     left: 0;
     width: 0;
     height: 100%;
-    background-color:#1cb698;
+    background-color:#ffffff;
     z-index:-1;
     transition: 1s;
 }
@@ -221,7 +221,7 @@ background-color: #1cb698;
 
 
 .skills{
-    background-color: #252a2e;
+    background-color: #062349;
     color: #fff;
     padding: 50px 20px;
 }
@@ -256,12 +256,12 @@ background-color: #1cb698;
 .skills .skill .barra-skill{
     height: 8px;
     width: 80%;
-    background-color: #131517;
+    background-color: #5f5f5f;
     position: relative;
     margin-bottom:30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #000;
     position: absolute;
     top: 0;
     left: 0;
@@ -271,7 +271,8 @@ background-color: #1cb698;
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #969696;
+    background-color: #000;
+    color: #ffffff;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -431,14 +432,14 @@ background-color: #1cb698;
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color:#bebebe;
+    color:#ffffff;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #e6e6e6;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
@@ -447,7 +448,7 @@ background-color: #1cb698;
 
 
 .portfolio{
-    background-color: #252a2e;
+    background-color: #062349;
     color: #fff;
     padding: 50px 20px;
 }
@@ -574,7 +575,7 @@ background-color: #1cb698;
 }
 
 footer{
-    background-color: #252a2e;
+    background-color: #000000;
     color: #fff;
     padding: 5px 30px 0;
     text-align: center;
@@ -601,7 +602,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #707272;
+    background-color: #062349;
     color: #fff;
     position: absolute;
     left: 50%;
