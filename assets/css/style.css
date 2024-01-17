@@ -512,6 +512,10 @@ background-color: #000000;
     
 }
 
+.imagenes_proyects{
+   background-size: cover;
+}
+
 .contacto{
     background-color: #1e2326;
     color: #fff;
